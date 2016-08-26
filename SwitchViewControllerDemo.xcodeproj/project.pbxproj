@@ -13,6 +13,10 @@
 		A1BAC6A31D6EDEEC001C4B8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BAC6A11D6EDEEC001C4B8E /* Main.storyboard */; };
 		A1BAC6A51D6EDEEC001C4B8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BAC6A41D6EDEEC001C4B8E /* Assets.xcassets */; };
 		A1BAC6A81D6EDEEC001C4B8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BAC6A61D6EDEEC001C4B8E /* LaunchScreen.storyboard */; };
+		A1BAC6B11D6EE3C0001C4B8E /* JDToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BAC6B01D6EE3C0001C4B8E /* JDToolBar.m */; };
+		A1BAC6B31D6EE3D9001C4B8E /* JDToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1BAC6B21D6EE3D9001C4B8E /* JDToolBar.xib */; };
+		A1BAC6B61D6EE4A6001C4B8E /* JDVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BAC6B51D6EE4A6001C4B8E /* JDVerticalButton.m */; };
+		A1BAC6B91D6EE544001C4B8E /* UIView+JDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BAC6B81D6EE544001C4B8E /* UIView+JDExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		A1BAC6A41D6EDEEC001C4B8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1BAC6A71D6EDEEC001C4B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1BAC6A91D6EDEEC001C4B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1BAC6AF1D6EE3C0001C4B8E /* JDToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDToolBar.h; sourceTree = "<group>"; };
+		A1BAC6B01D6EE3C0001C4B8E /* JDToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDToolBar.m; sourceTree = "<group>"; };
+		A1BAC6B21D6EE3D9001C4B8E /* JDToolBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDToolBar.xib; sourceTree = "<group>"; };
+		A1BAC6B41D6EE4A6001C4B8E /* JDVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDVerticalButton.h; sourceTree = "<group>"; };
+		A1BAC6B51D6EE4A6001C4B8E /* JDVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDVerticalButton.m; sourceTree = "<group>"; };
+		A1BAC6B71D6EE544001C4B8E /* UIView+JDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JDExtension.h"; sourceTree = "<group>"; };
+		A1BAC6B81D6EE544001C4B8E /* UIView+JDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JDExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +78,13 @@
 				A1BAC6A61D6EDEEC001C4B8E /* LaunchScreen.storyboard */,
 				A1BAC6A91D6EDEEC001C4B8E /* Info.plist */,
 				A1BAC6981D6EDEEC001C4B8E /* Supporting Files */,
+				A1BAC6AF1D6EE3C0001C4B8E /* JDToolBar.h */,
+				A1BAC6B01D6EE3C0001C4B8E /* JDToolBar.m */,
+				A1BAC6B21D6EE3D9001C4B8E /* JDToolBar.xib */,
+				A1BAC6B41D6EE4A6001C4B8E /* JDVerticalButton.h */,
+				A1BAC6B51D6EE4A6001C4B8E /* JDVerticalButton.m */,
+				A1BAC6B71D6EE544001C4B8E /* UIView+JDExtension.h */,
+				A1BAC6B81D6EE544001C4B8E /* UIView+JDExtension.m */,
 			);
 			path = SwitchViewControllerDemo;
 			sourceTree = "<group>";
@@ -139,6 +157,7 @@
 				A1BAC6A81D6EDEEC001C4B8E /* LaunchScreen.storyboard in Resources */,
 				A1BAC6A51D6EDEEC001C4B8E /* Assets.xcassets in Resources */,
 				A1BAC6A31D6EDEEC001C4B8E /* Main.storyboard in Resources */,
+				A1BAC6B31D6EE3D9001C4B8E /* JDToolBar.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1BAC6B91D6EE544001C4B8E /* UIView+JDExtension.m in Sources */,
 				A1BAC6A01D6EDEEC001C4B8E /* ViewController.m in Sources */,
+				A1BAC6B61D6EE4A6001C4B8E /* JDVerticalButton.m in Sources */,
 				A1BAC69D1D6EDEEC001C4B8E /* AppDelegate.m in Sources */,
 				A1BAC69A1D6EDEEC001C4B8E /* main.m in Sources */,
+				A1BAC6B11D6EE3C0001C4B8E /* JDToolBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +288,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwitchViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xiaoya.SwitchViewControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -277,6 +300,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwitchViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xiaoya.SwitchViewControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

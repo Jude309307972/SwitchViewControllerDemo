@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "JDToolBar.h"
+#import "UIView+JDExtension.h"
 
 @interface ViewController ()
 
@@ -16,7 +18,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    JDToolBar *toolBar = [JDToolBar toolBar];
+    toolBar.y = self.view.height - toolBar.height;
+    [self.view addSubview:toolBar];
 }
 
 - (void)didReceiveMemoryWarning {
