@@ -1,13 +1,13 @@
 //
-//  JDVerticalButton.h
+//  ChiledViewController.h
 //  SwitchViewControllerDemo
 //
-//  Created by XUN on 16/8/25.
+//  Created by Jude on 16/8/30.
 //  Copyright © 2016年 Jude. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface JDVerticalButton : UIButton
+@interface ChiledViewController : UIViewController
 
 @end

@@ -1,13 +1,13 @@
 //
-//  JDToolBar.h
+//  ChildViewController.h
 //  SwitchViewControllerDemo
 //
-//  Created by XUN on 16/8/25.
+//  Created by Jude on 16/8/30.
 //  Copyright © 2016年 Jude. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface JDToolBar : UIView
-+ (instancetype)toolBar;
+@interface ChildViewController : UIViewController
+
 @end

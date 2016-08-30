@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8540A5EA1D75292C00E8B9B9 /* SJSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8540A5E71D75292C00E8B9B9 /* SJSwitchCell.m */; };
+		8540A5EB1D75292C00E8B9B9 /* SJSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8540A5E91D75292C00E8B9B9 /* SJSwitchViewController.m */; };
+		8540A5FB1D752AEA00E8B9B9 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8540A5FA1D752AEA00E8B9B9 /* ChildViewController.m */; };
 		A1BAC69A1D6EDEEC001C4B8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BAC6991D6EDEEC001C4B8E /* main.m */; };
 		A1BAC69D1D6EDEEC001C4B8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BAC69C1D6EDEEC001C4B8E /* AppDelegate.m */; };
 		A1BAC6A01D6EDEEC001C4B8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BAC69F1D6EDEEC001C4B8E /* ViewController.m */; };
 		A1BAC6A31D6EDEEC001C4B8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BAC6A11D6EDEEC001C4B8E /* Main.storyboard */; };
 		A1BAC6A51D6EDEEC001C4B8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BAC6A41D6EDEEC001C4B8E /* Assets.xcassets */; };
 		A1BAC6A81D6EDEEC001C4B8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BAC6A61D6EDEEC001C4B8E /* LaunchScreen.storyboard */; };
-		A1BAC6B11D6EE3C0001C4B8E /* JDToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BAC6B01D6EE3C0001C4B8E /* JDToolBar.m */; };
-		A1BAC6B31D6EE3D9001C4B8E /* JDToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1BAC6B21D6EE3D9001C4B8E /* JDToolBar.xib */; };
-		A1BAC6B61D6EE4A6001C4B8E /* JDVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BAC6B51D6EE4A6001C4B8E /* JDVerticalButton.m */; };
 		A1BAC6B91D6EE544001C4B8E /* UIView+JDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BAC6B81D6EE544001C4B8E /* UIView+JDExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8540A5E61D75292C00E8B9B9 /* SJSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJSwitchCell.h; sourceTree = "<group>"; };
+		8540A5E71D75292C00E8B9B9 /* SJSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJSwitchCell.m; sourceTree = "<group>"; };
+		8540A5E81D75292C00E8B9B9 /* SJSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJSwitchViewController.h; sourceTree = "<group>"; };
+		8540A5E91D75292C00E8B9B9 /* SJSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJSwitchViewController.m; sourceTree = "<group>"; };
+		8540A5F91D752AEA00E8B9B9 /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		8540A5FA1D752AEA00E8B9B9 /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
 		A1BAC6951D6EDEEB001C4B8E /* SwitchViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BAC6991D6EDEEC001C4B8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A1BAC69B1D6EDEEC001C4B8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,11 +36,6 @@
 		A1BAC6A41D6EDEEC001C4B8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1BAC6A71D6EDEEC001C4B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1BAC6A91D6EDEEC001C4B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1BAC6AF1D6EE3C0001C4B8E /* JDToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDToolBar.h; sourceTree = "<group>"; };
-		A1BAC6B01D6EE3C0001C4B8E /* JDToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDToolBar.m; sourceTree = "<group>"; };
-		A1BAC6B21D6EE3D9001C4B8E /* JDToolBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDToolBar.xib; sourceTree = "<group>"; };
-		A1BAC6B41D6EE4A6001C4B8E /* JDVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDVerticalButton.h; sourceTree = "<group>"; };
-		A1BAC6B51D6EE4A6001C4B8E /* JDVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDVerticalButton.m; sourceTree = "<group>"; };
 		A1BAC6B71D6EE544001C4B8E /* UIView+JDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JDExtension.h"; sourceTree = "<group>"; };
 		A1BAC6B81D6EE544001C4B8E /* UIView+JDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JDExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,6 +51,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8540A5E51D75292C00E8B9B9 /* SJSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				8540A5E61D75292C00E8B9B9 /* SJSwitchCell.h */,
+				8540A5E71D75292C00E8B9B9 /* SJSwitchCell.m */,
+				8540A5E81D75292C00E8B9B9 /* SJSwitchViewController.h */,
+				8540A5E91D75292C00E8B9B9 /* SJSwitchViewController.m */,
+			);
+			path = SJSwitch;
+			sourceTree = "<group>";
+		};
 		A1BAC68C1D6EDEEB001C4B8E = {
 			isa = PBXGroup;
 			children = (
@@ -69,20 +81,18 @@
 		A1BAC6971D6EDEEC001C4B8E /* SwitchViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8540A5E51D75292C00E8B9B9 /* SJSwitch */,
 				A1BAC69B1D6EDEEC001C4B8E /* AppDelegate.h */,
 				A1BAC69C1D6EDEEC001C4B8E /* AppDelegate.m */,
 				A1BAC69E1D6EDEEC001C4B8E /* ViewController.h */,
 				A1BAC69F1D6EDEEC001C4B8E /* ViewController.m */,
+				8540A5F91D752AEA00E8B9B9 /* ChildViewController.h */,
+				8540A5FA1D752AEA00E8B9B9 /* ChildViewController.m */,
 				A1BAC6A11D6EDEEC001C4B8E /* Main.storyboard */,
 				A1BAC6A41D6EDEEC001C4B8E /* Assets.xcassets */,
 				A1BAC6A61D6EDEEC001C4B8E /* LaunchScreen.storyboard */,
 				A1BAC6A91D6EDEEC001C4B8E /* Info.plist */,
 				A1BAC6981D6EDEEC001C4B8E /* Supporting Files */,
-				A1BAC6AF1D6EE3C0001C4B8E /* JDToolBar.h */,
-				A1BAC6B01D6EE3C0001C4B8E /* JDToolBar.m */,
-				A1BAC6B21D6EE3D9001C4B8E /* JDToolBar.xib */,
-				A1BAC6B41D6EE4A6001C4B8E /* JDVerticalButton.h */,
-				A1BAC6B51D6EE4A6001C4B8E /* JDVerticalButton.m */,
 				A1BAC6B71D6EE544001C4B8E /* UIView+JDExtension.h */,
 				A1BAC6B81D6EE544001C4B8E /* UIView+JDExtension.m */,
 			);
@@ -128,6 +138,7 @@
 				TargetAttributes = {
 					A1BAC6941D6EDEEB001C4B8E = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = J978JB4WUH;
 					};
 				};
 			};
@@ -157,7 +168,6 @@
 				A1BAC6A81D6EDEEC001C4B8E /* LaunchScreen.storyboard in Resources */,
 				A1BAC6A51D6EDEEC001C4B8E /* Assets.xcassets in Resources */,
 				A1BAC6A31D6EDEEC001C4B8E /* Main.storyboard in Resources */,
-				A1BAC6B31D6EE3D9001C4B8E /* JDToolBar.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,11 +179,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1BAC6B91D6EE544001C4B8E /* UIView+JDExtension.m in Sources */,
+				8540A5FB1D752AEA00E8B9B9 /* ChildViewController.m in Sources */,
+				8540A5EB1D75292C00E8B9B9 /* SJSwitchViewController.m in Sources */,
 				A1BAC6A01D6EDEEC001C4B8E /* ViewController.m in Sources */,
-				A1BAC6B61D6EE4A6001C4B8E /* JDVerticalButton.m in Sources */,
 				A1BAC69D1D6EDEEC001C4B8E /* AppDelegate.m in Sources */,
 				A1BAC69A1D6EDEEC001C4B8E /* main.m in Sources */,
-				A1BAC6B11D6EE3C0001C4B8E /* JDToolBar.m in Sources */,
+				8540A5EA1D75292C00E8B9B9 /* SJSwitchCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +298,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SwitchViewControllerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -299,6 +311,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SwitchViewControllerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -326,6 +339,7 @@
 				A1BAC6AE1D6EDEEC001C4B8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

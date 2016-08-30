@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SJSwitchViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : SJSwitchViewController
 
 
 @end
