@@ -9,6 +9,7 @@
 #import "ChildViewController.h"
 
 @interface ChildViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *indicatorLabel;
 
 @end
 
@@ -17,6 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+   
+}
+
+- (void)setIndicatorStr:(NSString *)indicatorStr
+{
+    _indicatorStr = indicatorStr;
+     self.indicatorLabel.text = self.indicatorStr;
 }
 
 - (void)didReceiveMemoryWarning {

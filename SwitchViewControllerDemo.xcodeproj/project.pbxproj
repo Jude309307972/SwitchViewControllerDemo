@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85380E831D758874008FF6D7 /* ChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85380E821D758874008FF6D7 /* ChildViewController.xib */; };
 		8540A5EA1D75292C00E8B9B9 /* SJSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8540A5E71D75292C00E8B9B9 /* SJSwitchCell.m */; };
 		8540A5EB1D75292C00E8B9B9 /* SJSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8540A5E91D75292C00E8B9B9 /* SJSwitchViewController.m */; };
 		8540A5FB1D752AEA00E8B9B9 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8540A5FA1D752AEA00E8B9B9 /* ChildViewController.m */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		85380E821D758874008FF6D7 /* ChildViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChildViewController.xib; sourceTree = "<group>"; };
 		8540A5E61D75292C00E8B9B9 /* SJSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJSwitchCell.h; sourceTree = "<group>"; };
 		8540A5E71D75292C00E8B9B9 /* SJSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJSwitchCell.m; sourceTree = "<group>"; };
 		8540A5E81D75292C00E8B9B9 /* SJSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJSwitchViewController.h; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				A1BAC69F1D6EDEEC001C4B8E /* ViewController.m */,
 				8540A5F91D752AEA00E8B9B9 /* ChildViewController.h */,
 				8540A5FA1D752AEA00E8B9B9 /* ChildViewController.m */,
+				85380E821D758874008FF6D7 /* ChildViewController.xib */,
 				A1BAC6A11D6EDEEC001C4B8E /* Main.storyboard */,
 				A1BAC6A41D6EDEEC001C4B8E /* Assets.xcassets */,
 				A1BAC6A61D6EDEEC001C4B8E /* LaunchScreen.storyboard */,
@@ -168,6 +171,7 @@
 				A1BAC6A81D6EDEEC001C4B8E /* LaunchScreen.storyboard in Resources */,
 				A1BAC6A51D6EDEEC001C4B8E /* Assets.xcassets in Resources */,
 				A1BAC6A31D6EDEEC001C4B8E /* Main.storyboard in Resources */,
+				85380E831D758874008FF6D7 /* ChildViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

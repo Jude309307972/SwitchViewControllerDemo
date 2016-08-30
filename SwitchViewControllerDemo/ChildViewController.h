@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ChildViewController : UIViewController
-
+/**  */
+@property (nonatomic, copy) NSString *indicatorStr;
 @end

@@ -34,6 +34,7 @@
     for (int i = 0; i < 5; i++) {
         ChildViewController *childVC = [[ChildViewController alloc] init];
         childVC.view.backgroundColor = [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255) alpha:1];
+        childVC.indicatorStr =  [NSString stringWithFormat:@"第%ld栏目",(long)i];
         [self.viewControllers addObject:childVC];
     }
 }
@@ -71,7 +72,6 @@
         button.x = i * width;
         NSString *title = [NSString stringWithFormat:@"第%ld栏目",(long)i];
         [button setTitle:title forState:UIControlStateNormal];
-        //        [button layoutIfNeeded]; // 强制布局(强制更新子控件的frame)
         [button setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
         [button setTitleColor:[UIColor redColor] forState:UIControlStateDisabled];
         button.titleLabel.font = [UIFont systemFontOfSize:14];
@@ -95,18 +95,23 @@
 
 - (void)titleClick:(UIButton *)button
 {
+    [self buttonStateChange:button];
+    // 滚动
+    [self setShowingIndex:button.tag animate:YES];
+}
+
+- (void)buttonStateChange:(UIButton *)button
+{
     // 修改按钮状态
     self.selectedButton.enabled = YES;
     button.enabled = NO;
     self.selectedButton = button;
-    
     // 动画
     [UIView animateWithDuration:0.25 animations:^{
         self.indicatorView.width = button.titleLabel.width;
         self.indicatorView.centerX = button.centerX;
     }];
-    // 滚动
-    [self setShowingIndex:button.tag animate:YES];
+
 }
 
 #pragma mark -SJSwitchViewControllerDelegate
@@ -121,17 +126,11 @@
     return [self.viewControllers objectAtIndex:index];
 }
 
-- (void)switchViewControllerDidscoll:(CGPoint)point
+-(void)switchViewControllerDidStopAtIndex:(NSInteger)index
 {
-    NSInteger index = point.x /(NSInteger) self.view.width;
-    NSLog(@"%ld",index);
-    
     UIButton *button = self.titlesView.subviews[index];
-    // 修改按钮状态
-    self.selectedButton.enabled = YES;
-    button.enabled = NO;
-    self.selectedButton = button;
-    
+    [self buttonStateChange:button];
 }
+
 
 @end
