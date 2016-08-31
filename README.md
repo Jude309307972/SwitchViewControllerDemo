@@ -15,6 +15,7 @@
 
 @end
 ```
+
 #####2. 添加所需自控制到数组
 
 ```
@@ -25,7 +26,9 @@
 
 ```
 
+
 #####3. 实现SJSwitchViewControllerDelegate方法
+
 ```- (NSInteger)numberOfSwitchViewController
 {
     return self.viewControllers.count;
@@ -37,6 +40,7 @@
 }
 ```
 #####4. 跟切换控制的按钮交互
+
 ``` // 点击滚动到对应的控制器
     [self setShowingIndex:button.tag animate:YES];
  // 告诉外界滑动到对应的控制器下标index
@@ -46,6 +50,7 @@
     [self buttonStateChange:button];
 }
 ```
+
 ######5.SJSwitchViewControllerDelegate其他方法，大家可自行尝试，比如rectOfView 根据需求调整自控制的view在父控制的位置
 
 ```/**
