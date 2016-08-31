@@ -62,6 +62,6 @@
 -(CGRect)rectOfView;
 ```
 
-![image](https://github.com/Jude309307972/SwitchViewControllerDemo/blob/master/%E6%9C%AA%E5%91%BD%E5%90%8D.mov.gif)
+![image](https://github.com/Jude309307972/SwitchViewControllerDemo/blob/master/xiaoya.gif)
 
 
