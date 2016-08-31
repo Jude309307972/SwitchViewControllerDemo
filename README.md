@@ -18,11 +18,12 @@
 #####2. 添加所需自控制到数组
 
 ```
- ChildViewController *childVC = [[ChildViewController alloc] init];
+    for (int i = 0; i < 5; i++) {
+        ChildViewController *childVC = [[ChildViewController alloc] init];
         childVC.view.backgroundColor = [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255) alpha:1];
         childVC.indicatorStr =  [NSString stringWithFormat:@"第%ld栏目",(long)i];
         [self.viewControllers addObject:childVC];
-
+    }
 ```
 
 
@@ -59,7 +60,9 @@
  *
  *	@return
  */
--(CGRect)rectOfView;
+-(CGRect)rectOfView{
+    return CGRectMake(0, 64, kScreenWidth, kScreenHeight - (64 + kBottomButtonH) );
+}
 ```
 
 ![image](https://github.com/Jude309307972/SwitchViewControllerDemo/blob/master/xiaoya.gif)

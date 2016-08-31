@@ -106,7 +106,6 @@
     self.selectedButton.enabled = YES;
     button.enabled = NO;
     self.selectedButton = button;
-    // 动画
     [UIView animateWithDuration:0.25 animations:^{
         self.indicatorView.width = button.titleLabel.width;
         self.indicatorView.centerX = button.centerX;
