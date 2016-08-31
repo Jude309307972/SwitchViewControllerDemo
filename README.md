@@ -6,8 +6,7 @@
 ## Usage 使用方法
 #####1. 下载demo,将子文件夹SJSwitch拖入项目中，创建新控制器继承SJSwitchViewController作为容器控制器
 
-
-```#import <UIKit/UIKit.h>
+```
 #import "SJSwitchViewController.h"
 
 @interface ViewController : SJSwitchViewController
@@ -29,7 +28,8 @@
 
 #####3. 实现SJSwitchViewControllerDelegate方法
 
-```- (NSInteger)numberOfSwitchViewController
+```
+- (NSInteger)numberOfSwitchViewController
 {
     return self.viewControllers.count;
 }
@@ -41,7 +41,8 @@
 ```
 #####4. 跟切换控制的按钮交互
 
-``` // 点击滚动到对应的控制器
+``` 
+// 点击滚动到对应的控制器
     [self setShowingIndex:button.tag animate:YES];
  // 告诉外界滑动到对应的控制器下标index
 -(void)switchViewControllerDidStopAtIndex:(NSInteger)index
