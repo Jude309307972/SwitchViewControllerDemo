@@ -26,8 +26,6 @@
 ```
 
 #####3. 实现SJSwitchViewControllerDelegate方法
-
-
 ```- (NSInteger)numberOfSwitchViewController
 {
     return self.viewControllers.count;
@@ -57,5 +55,7 @@
  */
 -(CGRect)rectOfView;
 ```
+
+![image](https://github.com/Jude309307972/SwitchViewControllerDemo/blob/master/xiaoya.gif)
 
 
