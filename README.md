@@ -4,7 +4,7 @@
 ![image](https://github.com/Jude309307972/SwitchViewControllerDemo/blob/master/switch.gif)
 
 ## Usage 使用方法
-1. 下载demo,将子文件夹SJSwitch拖入项目中，创建新控制器继承SJSwitchViewController作为容器控制器
+#####1. 下载demo,将子文件夹SJSwitch拖入项目中，创建新控制器继承SJSwitchViewController作为容器控制器
 
 
 ```#import <UIKit/UIKit.h>
@@ -15,7 +15,7 @@
 
 @end
 ```
-2. 添加所需自控制到数组
+#####2. 添加所需自控制到数组
 
 ```
  ChildViewController *childVC = [[ChildViewController alloc] init];
@@ -25,7 +25,7 @@
 
 ```
 
-3. 实现SJSwitchViewControllerDelegate方法
+#####3. 实现SJSwitchViewControllerDelegate方法
 
 
 ```- (NSInteger)numberOfSwitchViewController
@@ -38,7 +38,7 @@
     return [self.viewControllers objectAtIndex:index];
 }
 ```
-4. 跟切换控制的按钮交互
+#####4. 跟切换控制的按钮交互
 ``` // 点击滚动到对应的控制器
     [self setShowingIndex:button.tag animate:YES];
  // 告诉外界滑动到对应的控制器下标index
@@ -48,4 +48,14 @@
     [self buttonStateChange:button];
 }
 ```
+######5.SJSwitchViewControllerDelegate其他方法，大家可自行尝试，比如rectOfView 根据需求调整自控制的view在父控制的位置
+
+```/**
+ *	@brief	加载在View上的视图尺寸
+ *
+ *	@return
+ */
+-(CGRect)rectOfView;
+```
+
 
